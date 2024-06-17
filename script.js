@@ -65,16 +65,16 @@ function changeColor() {
 }
 
 function changeBackgroundColor(element) {
-    element.style.backgroundColor = 'lightyellow';
+    element.style.backgroundColor = 'purple';
 }
 
 function resetBackgroundColor(element) {
-    element.style.backgroundColor = 'lightgreen';
+    element.style.backgroundColor = 'teal';
 }
 
 function changeAllColors() {
     const boxes = document.querySelectorAll('.hoverEffect');
     boxes.forEach(box => {
-        box.style.backgroundColor = 'lightpink';
+        box.style.backgroundColor = 'pink';
     });
 }
